@@ -1,12 +1,35 @@
 {
-  "name": "APINodeJS",
+  "name": "apinodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "start-watch":"nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9imeio/api-nodejs.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9imeio/api-nodejs/issues"
+  },
+  "homepage": "https://github.com/9imeio/api-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "eslint": "^5.9.0",
+    "express": "^4.16.4"
+  },
+  "undef": true,
+  "unused": true,
+  "globals": {
+    "MY_GLOBAL": true
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
 }
